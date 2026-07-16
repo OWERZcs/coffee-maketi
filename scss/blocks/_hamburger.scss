@@ -1,0 +1,23 @@
+.hamburger{
+    display: none;
+    width: 16px;
+    height: 15px;
+    border: none;
+    background-color: transparent;
+    border: 1.5px solid #333D4B;
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: center  center;
+}
+.hamburger--opened{
+    background-image: url(../../img/menu.png);
+
+}
+.hamburger--closed{
+    background-image: url(../../img/x.png);
+}
+@media only screen and (max-width:610px){
+    .hamburger{
+        display: inline-block;
+    }
+}
